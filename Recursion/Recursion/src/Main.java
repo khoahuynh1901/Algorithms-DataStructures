@@ -1,15 +1,26 @@
 public class Main {
+
     public static void main(String[] args) {
         System.out.println("Recursive Function");
-        Recursive(10);
+        System.out.println(fibonacci(5));
+
 
     }
 
-    public static void Recursive(int number){
-        if (number < 1 ){
+    static void recursive(int number) {
+        if (number == 1) {
             return;
         }
-        System.out.println(number);
-        Recursive(number - 1);
+        recursive(number - 1);
+    }
+    static int fibonacci(int number){
+        if(number<2){
+            return(number);
+        }else{
+            return (fibonacci(number-1) + fibonacci(number-2));
+        }
+
+
     }
 }
+
