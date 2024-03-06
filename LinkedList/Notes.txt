@@ -1,0 +1,12 @@
+//LinkedList
+Linkedlist made up of two part : Node and Pointer
+
+LinkedList is store in random memory but has pointer to access the next Nodes 
+
+Data in LinkedList called Nodes
+
+//Array
+Array is store in sequencial order where memory is stored in sequenially way
+data in Array called Element 
+
+_________________________________________________________
