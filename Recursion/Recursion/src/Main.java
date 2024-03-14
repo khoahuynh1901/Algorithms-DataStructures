@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Recursive Function");
-        System.out.println(fibonacci(5));
+        recursive(5);
 
 
     }
@@ -12,6 +12,8 @@ public class Main {
             return;
         }
         recursive(number - 1);
+        System.out.println("Hi my name is Khoa");
+        System.out.println(number);
     }
     static int fibonacci(int number){
         if(number<2){

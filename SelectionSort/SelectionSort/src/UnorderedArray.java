@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class UnorderedArray {
     private int[] m_array;
     private int maxSize;
@@ -21,27 +20,6 @@ public class UnorderedArray {
         }
     }
 
-    // find the biggest!
-    public void selectionSort(){
-        // we need the loop for filling the array
-        //[10,3,2,9,0]
-        for (int i = 0; i < numElements; i++) {
-            // go through the array!
-            // we have to find the smallest
-            int smallestLocation = i;
-            for (int j = i+1; j <numElements ; j++) {
-                //j = 4;9
-                // comparison!
-                if(m_array[j] < m_array[smallestLocation]) {
-                    smallestLocation = j; //3;2
-                }
-            }
-            // time to swap!
-            int temp = m_array[smallestLocation];
-            m_array[smallestLocation] = m_array[i];
-            m_array[i] = temp;
-        }
-    }
     public void listItems() {
         System.out.print("myArray{");
         for (int i = 0; i < numElements; i++){

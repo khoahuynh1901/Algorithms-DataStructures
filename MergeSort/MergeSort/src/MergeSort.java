@@ -70,10 +70,10 @@ public class MergeSort {
 
     public static void main(String[] args) {
         Random rnd = new Random();
-        int[] numbers = new int[10];
+        int[] numbers = new int[9];
 
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = rnd.nextInt(100);
+            numbers[i] = rnd.nextInt(10);
         }
 
         System.out.print("Original Array: ");

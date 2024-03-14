@@ -30,8 +30,7 @@ public class UnorderedArray {
         }
         return -1;
     }
-    //Binary Search Required Sorted Array
-
+    //Binary Search Required Sorted Arrays
     public void selectionSort(){
         // we need the loop for filling the array
         //[10,3,2,9,0]
@@ -54,15 +53,16 @@ public class UnorderedArray {
     }
 
     public int binarySearch(int item) {
-        //[0,2,4,4,5]
+        // {0 1 1 5 8 9}
         int start = 0;
-        int end = numElements - 1; // assuming numElements is the number of elements in m_array
+        int end = numElements-1; // assuming numElements is the number of elements in m_array
         while (start <= end) {
             int mid = start + (end - start) / 2;
+            // another way is mid = (end + start)/2
             if (m_array[mid] == item) {
                 return mid;
             } else if (item < m_array[mid]) {
-                end = mid - 1;
+                end = mid -1;
             } else {
                 start = mid + 1;
             }
@@ -91,6 +91,9 @@ public class UnorderedArray {
         shifting down all items after it down by 1. The
         function returns true if the removal was successful
         (if found) and false otherwise (not found)
+        */
+        /* array remove the index and replace its position by next index
+        Ex: [1,2,4,0] remove 2 then [1,4,0]
         */
         int index = linearSearch(item);
         if (index == -1) {

@@ -3,7 +3,7 @@ import java.util.Random;
 public class QuickSort {
 
     private static void quickSort(int[] array, int lowIndex, int highIndex){
-        if (lowIndex > highIndex) {
+        if (lowIndex >= highIndex) {
             return;
         }
         int pivot = array[highIndex];
@@ -43,10 +43,10 @@ public class QuickSort {
     }
     public static void main(String[] args) {
         Random rnd = new Random();
-        int[] numbers = new int[10];
+        int[] numbers = new int[7];
 
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = rnd.nextInt(100);
+            numbers[i] = rnd.nextInt(10);
         }
 
         System.out.print("Original Array: ");

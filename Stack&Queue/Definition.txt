@@ -1,0 +1,26 @@
+*Stack: Chồng chất lên nhau
+
+Stack is LIFO meaning "Last In First Out" 
+Ex:
+[ Java,
+  python,
+ C++ ]
+
+Last Insert is Java so javam to get C++, we have to take out java, python first.
+
+Method: 
+delete -> Pop(): remove first element meaning the last element which just added
+find -> Peek(): Retrieve the first element meaning the last element which just added
+
+
+
+
+
+
+*Queu: Xếp Hàng.
+
+Queu is FIFO meaing "First in First Out"
+Ex:
+[java, python, c++] 
+
+C++ inserted first so it will be indexed first .

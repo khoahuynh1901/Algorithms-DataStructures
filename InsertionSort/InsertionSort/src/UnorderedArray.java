@@ -19,7 +19,6 @@ public class UnorderedArray {
             return false;
         }
     }
-
     public void InsertionSort() {
         for (int i = 1; i < Total_Item; i++) {
             int currentValue = Unorder[i];
