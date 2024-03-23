@@ -7,7 +7,6 @@ public class Main {
         list.insert(2);
         list.delete(2);
         list.show();
-
     }
 }
 

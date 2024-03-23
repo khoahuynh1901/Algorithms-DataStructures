@@ -15,8 +15,6 @@ find -> Peek(): Retrieve the first element meaning the last element which just a
 
 
 
-
-
 *Queu: Xếp Hàng.
 
 Queu is FIFO meaing "First in First Out"
@@ -24,3 +22,7 @@ Ex:
 [java, python, c++] 
 
 C++ inserted first so it will be indexed first .
+
+Different Terminology method name
+Enqueue: push/add
+Dequeue: pop/remove

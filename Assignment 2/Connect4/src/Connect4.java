@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Connect4{
+public class Connect4 {
     private char[][] board;
     private char currentPlayer;
     private boolean gameOver;
@@ -62,8 +62,54 @@ public class Connect4{
     }
 
     private boolean checkForWinner() {
-        // Implementation of isWinner method from previous code
-        // This method checks for a winner and returns true if a winner is found
+        // Check for horizontal wins
+        for (int row = 0; row < board.length; row++) {
+            for (int col = 0; col <= board[row].length - 4; col++) {
+                if (board[row][col] != '-' &&
+                        board[row][col] == board[row][col + 1] &&
+                        board[row][col] == board[row][col + 2] &&
+                        board[row][col] == board[row][col + 3]) {
+                    return true;
+                }
+            }
+        }
+
+        // Check for vertical wins
+        for (int col = 0; col < board[0].length; col++) {
+            for (int row = 0; row <= board.length - 4; row++) {
+                if (board[row][col] != '-' &&
+                        board[row][col] == board[row + 1][col] &&
+                        board[row][col] == board[row + 2][col] &&
+                        board[row][col] == board[row + 3][col]) {
+                    return true;
+                }
+            }
+        }
+
+        // Check for diagonal wins (positive slope)
+        for (int row = 0; row <= board.length - 4; row++) {
+            for (int col = 0; col <= board[row].length - 4; col++) {
+                if (board[row][col] != '-' &&
+                        board[row][col] == board[row + 1][col + 1] &&
+                        board[row][col] == board[row + 2][col + 2] &&
+                        board[row][col] == board[row + 3][col + 3]) {
+                    return true;
+                }
+            }
+        }
+
+        // Check for diagonal wins (negative slope)
+        for (int row = 3; row < board.length; row++) {
+            for (int col = 0; col <= board[row].length - 4; col++) {
+                if (board[row][col] != '-' &&
+                        board[row][col] == board[row - 1][col + 1] &&
+                        board[row][col] == board[row - 2][col + 2] &&
+                        board[row][col] == board[row - 3][col + 3]) {
+                    return true;
+                }
+            }
+        }
+
         return false;
     }
 
