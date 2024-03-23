@@ -42,8 +42,6 @@ public class DynamicStack {
             int data = StackArray[top];
             shrink();
             return data;
-
-
         }
 
     }
@@ -79,14 +77,14 @@ public class DynamicStack {
         dy.push(10);
         dy.push(2003);
         dy.push(19);
-        dy.push(25);
-        System.out.println(dy.pop());
-        System.out.println(dy.pop());
-        System.out.println(dy.pop());
-        System.out.println(dy.pop());
-        System.out.println(dy.pop());
-        System.out.println(dy.pop());
-        System.out.println(dy.pop());
+//        dy.push(25);
+//        System.out.println(dy.pop());
+//        System.out.println(dy.pop());
+//        System.out.println(dy.pop());
+//        System.out.println(dy.pop());
+//        System.out.println(dy.pop());
+//        System.out.println(dy.pop());
+//        System.out.println(dy.pop());
 
         dy.show();
 
