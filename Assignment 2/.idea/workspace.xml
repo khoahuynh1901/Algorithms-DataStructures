@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96d34bfc-59e6-474a-8104-60ea208e9310" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Binary Search Tree/BinarySearchTree/BinarySearchTree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashTable/HashTable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashTable/HashTable/HashTable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashTable/HashTable/src/HashFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/Single LinkedList/Singly_LinkedList/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/Single LinkedList/Singly_LinkedList/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/Single LinkedList/Singly_LinkedList/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/Single LinkedList/Singly_LinkedList/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stack&amp;Queue/Definition.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack&amp;Queue/Definition.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stack&amp;Queue/Stack_Queues/src/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack&amp;Queue/Stack_Queues/src/DynamicStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stack&amp;Queue/Stack_Queues/src/QueueArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack&amp;Queue/Stack_Queues/src/QueueArr.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2e4HJ09nbJzKBnNZ6CPaDxiJupI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96d34bfc-59e6-474a-8104-60ea208e9310" name="Changes" comment="" />
+      <created>1711156858507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711156858507</updated>
+      <workItem from="1711156860928" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
