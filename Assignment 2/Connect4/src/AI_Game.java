@@ -1,14 +1,16 @@
+// Khoa Huynh
+// Dominic Frydryk
 import java.util.Scanner;
 
 public class AI_Game {
-    public static final int EMPTY = 0;
-    public static final int PLAYER1 = 1;
-    public static final int PLAYER2 = 2;
-    public static final int ROWS = 6;
-    public static final int COLS = 7;
-    public static final int WINNING_LENGTH = 4;
-    public static final int INF = Integer.MAX_VALUE;
-    public static int[][] board;
+    private static final int EMPTY = 0;
+    private static final int PLAYER1 = 1;
+    private static final int PLAYER2 = 2;
+    private static final int ROWS = 6;
+    private static final int COLS = 7;
+    private static final int WINNING_LENGTH = 4;
+    private static final int INF = Integer.MAX_VALUE;
+    private static int[][] board;
 
     public AI_Game(){
         board = new int[ROWS][COLS];
@@ -30,8 +32,8 @@ public class AI_Game {
                 }
                 int aiCol = getBestMove();
                 dropPiece(aiCol, PLAYER1);
-                System.out.println("AI dropped a piece in column " + aiCol);
                 printBoard();
+                System.out.println("AI dropped a piece in column " + aiCol);
                 if (isWinner(PLAYER1)) {
                     System.out.println("AI wins!");
                     break;
@@ -51,8 +53,8 @@ public class AI_Game {
         while (true) {
             int aiCol = getBestMove();
             dropPiece(aiCol, PLAYER1);
-            System.out.println("AI dropped a piece in column " + aiCol);
             printBoard();
+            System.out.println("AI dropped a piece in column " + aiCol);
             if (isWinner(PLAYER1)) {
                 System.out.println("AI wins!");
                 break;

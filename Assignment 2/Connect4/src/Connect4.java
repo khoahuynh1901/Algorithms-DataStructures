@@ -1,3 +1,5 @@
+// Khoa Huynh
+// Dominic Frydryk
 import java.util.Scanner;
 
 public class Connect4 {

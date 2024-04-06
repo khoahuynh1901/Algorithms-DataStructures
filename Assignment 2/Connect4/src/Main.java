@@ -1,3 +1,5 @@
+// Khoa Huynh
+// Dominic Frydryk
 import java.util.Scanner;
 
 public class Main {
@@ -33,12 +35,11 @@ public class Main {
                 System.out.print("Do you want to go first? (Enter 'y' for yes, 'n' for no): ");
                 String turn = myObj.next();
                 if (turn.equalsIgnoreCase("y")) {
-                    System.out.println("You go first!");
                     AI_Game.printBoard();
+                    System.out.println("You go first!");
                     AI_Game.playGame_playerFirst();
                 } else {
                     System.out.println("Computer goes first!");
-                    AI_Game.printBoard();
                     AI_Game.playGame_aiFirst();                }
                 break;
                 /* ---- End Prompting who want first ---- */
