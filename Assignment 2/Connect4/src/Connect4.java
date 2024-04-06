@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Connect4 {
     private char[][] board;
-    private char currentPlayer;
+    public static char currentPlayer;
     private boolean gameOver;
     private int turn;
 
@@ -35,12 +35,14 @@ public class Connect4 {
             dropChecker(column);
             if (checkForWinner()) {
                 gameOver = true;
+
             }
             switchPlayer();
             turn++;
         }
         displayBoard();
         if (gameOver) {
+            switchPlayer();
             System.out.println(currentPlayer + " won!");
         } else {
             System.out.println("It's a tie!");
@@ -109,12 +111,19 @@ public class Connect4 {
                 }
             }
         }
-
         return false;
     }
 
-    private void switchPlayer() {
-        currentPlayer = (currentPlayer == 'R') ? 'B' : 'R';
+    public static void switchPlayer() {
+//     Short-hand   currentPlayer = (currentPlayer == 'R') ? 'Y' : 'R';
+            // Check if current player is 'R'
+            if (currentPlayer == 'r' || currentPlayer == 'R') {
+                // If current player is 'R', switch to 'Y'
+                currentPlayer = 'Y';
+            } else {
+                // If current player is not 'R' (i.e., it's 'Y'), switch to 'R'
+                currentPlayer = 'R';
+            }
     }
 
     private void displayBoard() {

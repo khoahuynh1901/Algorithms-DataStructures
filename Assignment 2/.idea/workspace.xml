@@ -2,34 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96d34bfc-59e6-474a-8104-60ea208e9310" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Binary Search Tree/BinarySearchTree/BinarySearchTree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashTable/HashTable.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashTable/HashTable/HashTable.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashTable/HashTable/src/HashFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabTest02_Code/LabTest02_Code/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/Single LinkedList/Singly_LinkedList/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/Single LinkedList/Singly_LinkedList/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/Single LinkedList/Singly_LinkedList/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/Single LinkedList/Singly_LinkedList/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack&amp;Queue/Definition.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack&amp;Queue/Definition.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack&amp;Queue/Stack_Queues/src/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack&amp;Queue/Stack_Queues/src/DynamicStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack&amp;Queue/Stack_Queues/src/QueueArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack&amp;Queue/Stack_Queues/src/QueueArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2e4HJ09nbJzKBnNZ6CPaDxiJupI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,7 +25,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Khoah/Documents/School/Year 2/Winter-2023/COMP2080",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -60,6 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1711156858507</updated>
       <workItem from="1711156860928" duration="19000" />
+      <workItem from="1712363217504" duration="145000" />
+      <workItem from="1712363425713" duration="41000" />
     </task>
     <servers />
   </component>
