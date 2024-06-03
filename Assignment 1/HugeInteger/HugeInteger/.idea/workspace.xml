@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5975677-4653-42b6-a106-e2cdcba74b1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HugeInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LinkedList/Single LinkedList/Singly_LinkedList/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LinkedList/Single LinkedList/Singly_LinkedList/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BinarySearch_EfficientRemoveItem/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BinarySearch_EfficientRemoveItem/untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BinarySearch_EfficientRemoveItem/untitled/src/UnorderedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BinarySearch_EfficientRemoveItem/untitled/src/UnorderedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../InsertionSort/InsertionSort/src/UnorderedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../InsertionSort/InsertionSort/src/UnorderedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MergeSort/MergeSort/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MergeSort/MergeSort/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MergeSort/out/production/MergeSort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MergeSort/out/production/MergeSort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../QuickSort/QuickSort/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../QuickSort/QuickSort/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../QuickSort/out/production/QuickSort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../QuickSort/out/production/QuickSort/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Recursion/Recursion/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Recursion/Recursion/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Recursion/out/production/Recursion/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Recursion/out/production/Recursion/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SelectionSort/SelectionSort/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SelectionSort/SelectionSort/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SelectionSort/SelectionSort/src/UnorderedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SelectionSort/SelectionSort/src/UnorderedArray.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2cTfczOEnbxPTYBAvIaw9th0dOB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Khoah/Documents/School/Year 2/Winter-2023/COMP2080/LinkedList",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5975677-4653-42b6-a106-e2cdcba74b1a" name="Changes" comment="" />
+      <created>1708140578233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708140578233</updated>
+      <workItem from="1708140579144" duration="1729000" />
+      <workItem from="1708354153975" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
